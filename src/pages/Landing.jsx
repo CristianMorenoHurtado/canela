@@ -312,7 +312,7 @@ const Landing = () => {
                         <h2 className="menu__item--sub-header">The Hearty</h2>
                         <div className="menu__item--wrapper">
                             <h2 className="menu__item">
-                                Ginger Green - Muscle Repair
+                                Ginger Green
                             </h2>
                             <div className="food__line"></div>
                             <h2 className="menu__item--price">
@@ -324,7 +324,7 @@ const Landing = () => {
                         </p>
                         <div className="menu__item--wrapper">
                             <h2 className="menu__item">
-                                Sweet Chia Detox - Metabolism
+                                Sweet Chia Detox
                             </h2>
                             <div className="food__line"></div>
                             <h2 className="menu__item--price">
@@ -336,7 +336,7 @@ const Landing = () => {
                         </p>
                         <div className="menu__item--wrapper">
                             <h2 className="menu__item">
-                                Matcha Tropical - Antioxidant
+                                Matcha Tropical
                             </h2>
                             <div className="food__line"></div>
                             <h2 className="menu__item--price">
@@ -348,7 +348,7 @@ const Landing = () => {
                         </p>
                         <div className="menu__item--wrapper">
                             <h2 className="menu__item">
-                                Citrus Sunshine - Immune
+                                Citrus Sunshine
                             </h2>
                             <div className="food__line"></div>
                             <h2 className="menu__item--price">
