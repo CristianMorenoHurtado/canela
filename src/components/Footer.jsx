@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -14,25 +13,25 @@ const Footer = () => {
                             </h2>
                             <h3 className="footer__address">ADDRESS: 3 1st St SE, Moultrie, GA 31768</h3>
                             <ul className="nav__links">
-                                <li className="nav__list">
-                                    <Link to="https://www.facebook.com/CanelaSnackBar" target="_blank" rel="noreferrer" className="nav__link footer__link--first">
-                                        <FontAwesomeIcon className="nav__icon" icon={['fab', 'facebook-f']} />
-                                    </Link>
+                                <li className="footer__list">
+                                    <a href="https://www.facebook.com/CanelaSnackBar" target="_blank" rel="noreferrer" className="footer__link--first footer__link">
+                                        <FontAwesomeIcon className="footer__icon" icon={['fab', 'facebook-f']} />
+                                    </a>
                                 </li>
-                                <li className="nav__list">
-                                    <Link to="https://www.instagram.com/canelainc/?hl=en" target="_blank" rel="noreferrer" className="nav__link">
-                                        <FontAwesomeIcon className="nav__icon" icon={['fab', 'instagram']} />
-                                    </Link>
+                                <li className="footer__list">
+                                    <a href="https://www.instagram.com/canelainc/?hl=en" target="_blank" rel="noreferrer" className="footer__link">
+                                        <FontAwesomeIcon className="footer__icon" icon={['fab', 'instagram']} />
+                                    </a>
                                 </li>
-                                <li className="nav__list">
-                                    <Link to="mailto:canela.moultrie@gmail.com" className="nav__link">
-                                        <FontAwesomeIcon className="nav__icon" icon="envelope" />
-                                    </Link>
+                                <li className="footer__list">
+                                    <a href="mailto:canela.moultrie@gmail.com" className="footer__link">
+                                        <FontAwesomeIcon className="footer__icon" icon="envelope" />
+                                    </a>
                                 </li>
-                                <li className="nav__list">
-                                    <Link to="tel:(229) 999-4123" className="nav__link">
-                                        <FontAwesomeIcon className="nav__icon" icon="phone" />
-                                    </Link>
+                                <li className="footer__list">
+                                    <a href="tel:(229) 999-4123" className="footer__link">
+                                        <FontAwesomeIcon className="footer__icon" icon="phone" />
+                                    </a>
                                 </li>
                             </ul>
                         </div>

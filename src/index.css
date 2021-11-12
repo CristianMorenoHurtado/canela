@@ -633,9 +633,31 @@ footer{
   color: #fff;
 }
 
+.footer__link{
+  display: block;
+  color: #fff;
+}
 
+.footer__icon{
+  font-size: 20px;
+  transition: all 350ms ease;
+}
 
+.footer__list{
+  display: flex;
+  margin-top: 8px;
+  margin-right: 16px;
+}
 
+.footer__link:hover,
+.footer__icon:hover {
+  text-decoration: none;
+  color: #a9cb1c;
+}
+
+.footer__icon:hover{
+  transform: scale(1.2);
+}
 
 
 /* Small phones, tablets, large smart phones */
@@ -705,6 +727,20 @@ footer{
     width: 100%;
   }
 
+  .footer__link{
+    display: block;
+    color: #fff;
+  }
+
+  .footer__icon{
+    font-size: 20px;
+  }
+
+  .footer__list{
+    display: flex;
+    margin-top: 8px;
+    margin-right: 16px;
+  }
 }
 
 /* Small Phones */
@@ -757,5 +793,9 @@ footer{
   .footer__copyright{
     display: flex;
     flex-direction: column;
+  }
+
+  .footer__icon{
+    font-size: 14px;
   }
 }
