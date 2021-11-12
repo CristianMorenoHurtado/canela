@@ -753,4 +753,9 @@ footer{
   .footer__address{
     width: 90%;
   }
+
+  .footer__copyright{
+    display: flex;
+    flex-direction: column;
+  }
 }
