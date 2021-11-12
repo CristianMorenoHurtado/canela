@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CanelaLogo from '../assets/canela_logo.png'
+import CanelaCLogo from '../assets/canela_c-logo.png'
 
 const Nav = () => {
     function openMenu() {
@@ -60,6 +61,7 @@ const Nav = () => {
                     <button className="btn__menu btn__menu--close" onClick={closeMenu}>
                         <FontAwesomeIcon icon="times" />
                     </button>
+                        <img src={CanelaCLogo} alt="" className="logo" />                    
                     <ul className="nav__links--menu">
                         <li className="nav__list--menu">
                             <a href="https://www.facebook.com/CanelaSnackBar" rel="noreferrer" target="_blank" className="nav__link--menu">
