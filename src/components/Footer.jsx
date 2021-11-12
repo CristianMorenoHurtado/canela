@@ -12,7 +12,7 @@ const Footer = () => {
                             <h2 className="footer__title">
                                 Contact Information
                             </h2>
-                            <h3>ADDRESS: 3 1st St SE, Moultrie, GA 31768</h3>
+                            <h3 className="footer__address">ADDRESS: 3 1st St SE, Moultrie, GA 31768</h3>
                             <ul className="nav__links">
                                 <li className="nav__list">
                                     <Link to="https://www.facebook.com/CanelaSnackBar" target="_blank" rel="noreferrer" className="nav__link footer__link--first">
