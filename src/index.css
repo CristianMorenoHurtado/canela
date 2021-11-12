@@ -640,6 +640,7 @@ footer{
 
 .footer__icon{
   font-size: 20px;
+  margin-right: 8px;
   transition: all 350ms ease;
 }
 
@@ -796,6 +797,6 @@ footer{
   }
 
   .footer__icon{
-    font-size: 14px;
+    font-size: 16px;
   }
 }
